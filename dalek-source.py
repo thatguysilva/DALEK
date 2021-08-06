@@ -64,7 +64,7 @@ class StartPage(tk.Frame):
 
 
 class PageOne(tk.Frame):
-
+    #time.sleep() doesn't work for some reason - fix in the future
     def __init__(self,parent,controller):
         tk.Frame.__init__(self,parent)
         for i in range(50):
